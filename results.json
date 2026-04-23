@@ -1,0 +1,327 @@
+{
+  "mode": "heuristic",
+  "n_claims": 35,
+  "kendall_tau": {
+    "market_vs_evaluator": {
+      "tau": 0.2418362860791222,
+      "p_value": 0.052405289903621546
+    },
+    "confidence_vs_evaluator": {
+      "tau": 0.43509824811887704,
+      "p_value": 0.0007209502980084873
+    }
+  },
+  "spearman_rho": {
+    "market_vs_evaluator": {
+      "rho": 0.3547526888169726,
+      "p_value": 0.03652106471579375
+    },
+    "confidence_vs_evaluator": {
+      "rho": 0.5315268759454214,
+      "p_value": 0.001017070510760851
+    }
+  },
+  "market_improvement": {
+    "kendall_tau_delta": -0.19326196203975485,
+    "spearman_rho_delta": -0.17677418712844878
+  },
+  "early_correct_staking": {
+    "optimist": {
+      "early_stakes": 34,
+      "early_correct": 34,
+      "accuracy": 1.0,
+      "final_balance": 138.97383221334852,
+      "roi": 0.38973832213348514
+    },
+    "skeptic": {
+      "early_stakes": 23,
+      "early_correct": 20,
+      "accuracy": 0.8695652173913043,
+      "final_balance": 106.6698553056509,
+      "roi": 0.06669855305650899
+    }
+  },
+  "hypothesis_supported": false,
+  "claim_details": [
+    {
+      "id": "2026-04-14/claim-001",
+      "confidence": 0.8,
+      "market_price": 0.6231385025254768,
+      "evaluator_quality": 0.9500000000000001,
+      "status": "active",
+      "n_evidence": 8
+    },
+    {
+      "id": "2026-04-14/claim-002",
+      "confidence": 0.45,
+      "market_price": 0.563990270176383,
+      "evaluator_quality": 0.6000000000000001,
+      "status": "parked",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-14/claim-003",
+      "confidence": 0.55,
+      "market_price": 0.6063113859977372,
+      "evaluator_quality": 0.8500000000000001,
+      "status": "active",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-14/claim-004",
+      "confidence": 0.6,
+      "market_price": 0.5589745884293756,
+      "evaluator_quality": 0.92,
+      "status": "active",
+      "n_evidence": 9
+    },
+    {
+      "id": "2026-04-14/claim-005",
+      "confidence": 0.55,
+      "market_price": 0.5825940945002899,
+      "evaluator_quality": 0.925,
+      "status": "active",
+      "n_evidence": 6
+    },
+    {
+      "id": "2026-04-14/claim-006",
+      "confidence": 0.55,
+      "market_price": 0.6137721780386804,
+      "evaluator_quality": 0.5375,
+      "status": "parked",
+      "n_evidence": 5
+    },
+    {
+      "id": "2026-04-14/claim-007",
+      "confidence": 0.6,
+      "market_price": 0.5450739419133515,
+      "evaluator_quality": 0.9500000000000001,
+      "status": "active",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-14/claim-008",
+      "confidence": 0.5,
+      "market_price": 0.6176589680686492,
+      "evaluator_quality": 0.55,
+      "status": "parked",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-14/claim-009",
+      "confidence": 0.75,
+      "market_price": 0.7241121123310112,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 22
+    },
+    {
+      "id": "2026-04-14/claim-010",
+      "confidence": 0.5,
+      "market_price": 0.578896717801638,
+      "evaluator_quality": 0.9500000000000001,
+      "status": "active",
+      "n_evidence": 10
+    },
+    {
+      "id": "2026-04-14/claim-011",
+      "confidence": 0.5,
+      "market_price": 0.620260859883016,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 9
+    },
+    {
+      "id": "2026-04-14/claim-012",
+      "confidence": 0.45,
+      "market_price": 0.6256794449125547,
+      "evaluator_quality": 0.975,
+      "status": "active",
+      "n_evidence": 6
+    },
+    {
+      "id": "2026-04-15/claim-001",
+      "confidence": 0.55,
+      "market_price": 0.5414334413510224,
+      "evaluator_quality": 0.875,
+      "status": "active",
+      "n_evidence": 3
+    },
+    {
+      "id": "2026-04-15/claim-002",
+      "confidence": 0.7,
+      "market_price": 0.632777586484226,
+      "evaluator_quality": 0.925,
+      "status": "active",
+      "n_evidence": 6
+    },
+    {
+      "id": "2026-04-15/claim-003",
+      "confidence": 0.65,
+      "market_price": 0.6497953190045578,
+      "evaluator_quality": 0.93,
+      "status": "active",
+      "n_evidence": 6
+    },
+    {
+      "id": "2026-04-15/claim-004",
+      "confidence": 0.6,
+      "market_price": 0.4462238086164268,
+      "evaluator_quality": 0.875,
+      "status": "active",
+      "n_evidence": 3
+    },
+    {
+      "id": "2026-04-15/claim-005",
+      "confidence": 0.45,
+      "market_price": 0.6131727905767977,
+      "evaluator_quality": 0.9,
+      "status": "active",
+      "n_evidence": 5
+    },
+    {
+      "id": "2026-04-15/claim-006",
+      "confidence": 0.5,
+      "market_price": 0.5426673233071934,
+      "evaluator_quality": 0.9500000000000001,
+      "status": "active",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-15/claim-007",
+      "confidence": 0.5,
+      "market_price": 0.5049585193724876,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 5
+    },
+    {
+      "id": "2026-04-15/claim-008",
+      "confidence": 0.68,
+      "market_price": 0.614254305927364,
+      "evaluator_quality": 0.9500000000000001,
+      "status": "active",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-15/claim-009",
+      "confidence": 0.6,
+      "market_price": 0.5592145538983411,
+      "evaluator_quality": 0.925,
+      "status": "active",
+      "n_evidence": 3
+    },
+    {
+      "id": "2026-04-15/claim-010",
+      "confidence": 0.55,
+      "market_price": 0.680649611570379,
+      "evaluator_quality": 0.925,
+      "status": "active",
+      "n_evidence": 6
+    },
+    {
+      "id": "2026-04-15/claim-011",
+      "confidence": 0.65,
+      "market_price": 0.6884085939382466,
+      "evaluator_quality": 0.925,
+      "status": "active",
+      "n_evidence": 6
+    },
+    {
+      "id": "2026-04-15/claim-012",
+      "confidence": 0.6,
+      "market_price": 0.7122439679315559,
+      "evaluator_quality": 0.9800000000000001,
+      "status": "active",
+      "n_evidence": 6
+    },
+    {
+      "id": "2026-04-15/claim-013",
+      "confidence": 0.55,
+      "market_price": 0.5927811318098276,
+      "evaluator_quality": 0.925,
+      "status": "active",
+      "n_evidence": 3
+    },
+    {
+      "id": "2026-04-16/claim-001",
+      "confidence": 0.98,
+      "market_price": 0.6742152692046919,
+      "evaluator_quality": 1.0,
+      "status": "verified",
+      "n_evidence": 1
+    },
+    {
+      "id": "2026-04-16/claim-002",
+      "confidence": 0.92,
+      "market_price": 0.6874168907027238,
+      "evaluator_quality": 1.0,
+      "status": "verified",
+      "n_evidence": 3
+    },
+    {
+      "id": "2026-04-16/claim-003",
+      "confidence": 0.62,
+      "market_price": 0.5610133281394852,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-16/claim-004",
+      "confidence": 0.7,
+      "market_price": 0.6324417129258453,
+      "evaluator_quality": 0.975,
+      "status": "active",
+      "n_evidence": 3
+    },
+    {
+      "id": "2026-04-16/claim-005",
+      "confidence": 0.8,
+      "market_price": 0.6096626177336908,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 3
+    },
+    {
+      "id": "2026-04-16/claim-006",
+      "confidence": 0.82,
+      "market_price": 0.6173362681073706,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 2
+    },
+    {
+      "id": "2026-04-16/claim-007",
+      "confidence": 0.78,
+      "market_price": 0.6392685393284362,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 2
+    },
+    {
+      "id": "2026-04-16/claim-008",
+      "confidence": 0.82,
+      "market_price": 0.6728722935840957,
+      "evaluator_quality": 1.0,
+      "status": "active",
+      "n_evidence": 2
+    },
+    {
+      "id": "2026-04-16/claim-009",
+      "confidence": 0.78,
+      "market_price": 0.8971086027807538,
+      "evaluator_quality": 0.9500000000000001,
+      "status": "active",
+      "n_evidence": 4
+    },
+    {
+      "id": "2026-04-16/claim-010",
+      "confidence": 0.75,
+      "market_price": 0.920779481907924,
+      "evaluator_quality": 0.975,
+      "status": "active",
+      "n_evidence": 3
+    }
+  ]
+}
